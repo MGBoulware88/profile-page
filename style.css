@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/* commonly used classes */
+.h-flex {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.ul-none {list-style: none;}
+
+.border {
+    border-right: 4px solid rgb(204, 204, 204);
+    border-bottom: 4px solid rgb(204, 204, 204);
+    border-left: 4px solid rgb(204, 204, 204);
+}
+.user-thumb {
+    height: 20px;
+    border-radius: 50%;
+}
+
+/* top banner */
+.top-banner {
+    background-color: black;
+    height: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-between;
+}
+#nav-links-list {
+    gap: 30px;
+}
+.nav-links a {
+    
+    text-decoration: none;
+}
+.main-link {
+    font-size: 22px;
+    color: white;
+}
+.muted-link {
+    color:rgb(102, 102, 102);
+}
+.profile-link {
+    color: white;
+}
+#sign-out {
+    background-color: rgb(23, 162, 184);
+    color: white;
+    padding: 2px 4px;
+}
+
+/* main content areas */
+.main-content {
+    background-color: white;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 20px;
+}
+.profile-content {
+    /* background-color: blue; */
+    /* height: 1150px; */
+    flex: 2;
+}
+.side-panel {
+    /* background-color: green; */
+    /* height: 1100px; */
+    flex: 1;
+}
+
+/* left column */
+
+/* user card */
+
+.user-card-bar {background-color: rgb(23, 162, 184);}
+
+.user-card {
+    background-color: white;
+    margin: 40px 80px 20px 80px;
+}
+.user-pp {
+    height: 60px;
+    position: relative;
+    left: 30px;
+    top: 40px;
+    border-radius: 50%;
+}
+.user-details {
+    background-color: white;
+    display: flex;
+    padding: 40px 20px 20px; /* 40 top, 20 R & L, 20 bottom*/
+}
+.username {
+    font-size: 22px;
+    font-weight: bold;
+}
+.icon {height: 15px;}
+
+/* education */
+.title-bar {
+    background-color: rgb(51, 51, 51);
+    color:white;
+    padding: 10px 20px;
+    margin-top: 25px;
+}
+.education-details {
+    background-color: white;
+    
+    padding: 10px;
+}
+.school-name {
+    font-size: 14pt;
+}
+.school-dates {
+    font-size: 11pt;
+    color: rgb(102, 102, 102);
+    font-weight: lighter;
+    margin-top: 5px;
+}
+.school-details {
+    font-size: 11pt;
+    margin-top: 10px;
+}
+
+/* right column */
+
+/* connection request notifications */
+.notifications {
+    background-color:white;
+}
+.side-panel-bar {
+    background-color: rgb(51, 51, 51);
+    padding: 10px 20px;
+}
+.small-notification {
+    background-color: rgb(204, 204, 204);
+   
+    font-size: 10pt;
+    border-radius: 50%;
+    padding: 3px 5px;
+}
+.side-panel-bar p {
+    color:white;
+}
+.bar-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.notification-actions {
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-bottom: 20px;
+}
+
+.large-icon {
+    height: 20px;
+}
+
+/* connections */
+.connections {
+    background-color: white;
+}
+.white-text
+{
+    color:white;
+}
+.large-notification {
+    background-color:rgb(204, 204, 204);
+    font-size: 10pt;
+    border-radius: 75%;
+    padding: 4px;
+}
+.panel-box {
+    padding: 8px 4px;
+}
