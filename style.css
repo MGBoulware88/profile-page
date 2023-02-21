@@ -12,6 +12,11 @@
     gap: 8px;
     align-items: center;
 }
+.v-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 .ul-none {list-style: none;}
 
 .border {
@@ -128,7 +133,6 @@
     font-size: 11pt;
     margin-top: 10px;
 }
-
 /* right column */
 
 /* connection request notifications */
@@ -146,9 +150,6 @@
     border-radius: 50%;
     padding: 3px 5px;
 }
-.side-panel-bar p {
-    color:white;
-}
 .bar-flex {
     display: flex;
     justify-content: space-between;
@@ -163,11 +164,9 @@
     padding-right: 4px;
     margin-bottom: 20px;
 }
-
 .large-icon {
     height: 20px;
 }
-
 /* connections */
 .connections {
     background-color: white;
@@ -184,4 +183,7 @@
 }
 .panel-box {
     padding: 8px 4px;
+}
+.more {
+    padding: 10px;
 }
